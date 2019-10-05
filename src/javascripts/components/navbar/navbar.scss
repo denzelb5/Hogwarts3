@@ -12,14 +12,19 @@ nav {
     list-style-type: none;
     text-align: center;
     margin: 1em;
+    
   
       &:hover {
         background-color: $darkgray;
       }
+
+    a {
+      @include default-font(15px);
+    }
   }
 }
 
 #brand {
   margin-left: 1em;
-  color: $white;
+  @include default-font(30px);
 }

@@ -1,0 +1,25 @@
+@import '../../../styles/colors';
+@import '../../../styles/variables';
+
+nav {
+  background-color: $lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: $box-shadow;
+  
+  li {
+    list-style-type: none;
+    text-align: center;
+    margin: 1em;
+  
+      &:hover {
+        background-color: $darkgray;
+      }
+  }
+}
+
+#brand {
+  margin-left: 1em;
+  color: $white;
+}
